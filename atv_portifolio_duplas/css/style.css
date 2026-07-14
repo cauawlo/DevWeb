@@ -1,0 +1,200 @@
+
+html {
+  font-family: "Open Sans", sans-serif;
+  background-color: #F5F5F5;
+}
+
+
+
+header {
+    text-align: center;
+    
+}
+
+header a {
+    font-size: 3vw;
+    margin: 2vw 1vw 2vw 1vw;
+    font-weight: 550;
+    display: inline-block;
+}
+header a.atual {
+    background-color: black;
+    padding:10px 40px 10px 40px;
+    border-radius: 50px;
+    color: white;
+    margin: 2vw 0 2vw 0;
+}
+
+section.alex {
+    text-align: left;
+    margin: 0 0 0 4vw;
+}
+
+section.alex h2 {
+    font-size: 6vw;
+    margin: 7vw 0 4vw 0;
+}
+
+section.alex h2 span {
+    font-weight: 600;
+}
+
+section.alex p {
+    font-size: 4vw;
+    color: #757575;
+}
+
+section.alex p span {
+    font-weight: 700;
+}
+
+
+/* =========================== */
+
+
+section.shop  > ul> li {
+    background-color: white;
+    margin:5vw 4vw 2vw 4vw;
+    border: #E5E5E5 solid 2px;
+    border-radius: 10px;
+    
+   
+
+}
+
+section.shop img {
+     margin: 4vw 4vw 4vw 4vw;
+}
+
+section.shop ul > li {
+     margin: 4vw 4vw 4vw 4vw;
+     font-weight: 550;
+}
+
+section.shop li {
+     background-color: white;
+    margin: 5vw 5vw 5vw 5vw;
+    
+    
+}
+
+section.shop h2 {
+    font-size: 5vw;
+    font-weight: 550;
+    margin: 4vw 4vw 4vw 9vw;
+    
+}
+
+section.shop p {
+    color: #757575;
+    margin: 4vw 4vw 4vw 4vw;
+    line-height: 5vw;
+    
+}
+
+section.shop h3 {
+    font-size: 10vw;
+    margin: 4vw 4vw 4vw 4vw;
+}
+
+
+
+
+section.shop li {
+    background-color: #F5F5F5;
+    display: inline-block;
+    border-radius: 40px;
+   margin: 2vw 0 2vw;
+    padding: 1vw 1vw 1vw 1vw;
+    font-size: 3.5vw;
+}
+
+
+
+/* =================== */
+
+
+
+footer p {
+    text-align: center;
+    font-size: 3.5vw;
+    margin: 5vw 5vw 5vw 5vw;
+    background-color:white;
+    border: 1px solid #C2C2C2;
+    border-radius: 50px;
+    color: #7C7C7C;
+    padding: 2vw 2vw 2vw 2vw;
+}
+
+/* =============================
+ ABOUT HTML
+
+*/ 
+
+section.about {
+    text-align: left;
+    margin: 2vw 2vw 2vw 7vw;
+    line-height: 4vw
+}
+
+section.about h2 {
+font-size: 5vw;
+margin: 0 0 4vw 0;
+}
+
+section.about span {
+    font-weight: 600;
+}
+
+section.about p {
+    color: #757575;
+}
+
+/* ===============
+PROJECTS HTML */
+
+section.projects {
+    text-align: left;
+    margin: 4vw 4vw 4vw 4vw;
+}
+
+section.projects h2 {
+    font-size: 6vw ;
+    font-weight: 600;
+}
+
+section.projects p {
+    font-size: 3vw ;
+    color: #757575;
+     margin: 4vw 0vw 4vw 0vw;
+}
+
+section.challenge {
+    margin: 2vw 2vw 2vw 2vw;
+    text-align: left;
+}
+
+section.challenge h2 {
+    font-size: 5vw ;
+    font-weight: 600;
+    margin: 3vw 3vw 3vw 3vw;
+}
+
+section.challenge li {
+    border: #E5E5E5 solid 1px;
+    border-radius: 30px;
+    padding: 3vw 3vw 3vw 3vw;
+    background-color: white;
+    margin: 2vw 0 2vw 0;
+}
+
+section.challenge p {
+    color: #757575;
+    margin: 3vw 3vw 3vw 3vw;
+}
+
+section.challenge img {
+    background-color: #D8EEBB;
+    padding: 4vw 4vw 4vw 4vw;
+    border-radius: 30px;
+}
