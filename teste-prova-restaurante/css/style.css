@@ -1,0 +1,197 @@
+/* === IMPORTAÇÃO DE FONTES */
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100..900;1,100..900&family=Fredoka:wght@300..700&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Oswald:wght@200..700&display=swap');
+/*
+Follow - font-family: "Fredoka", sans-serif;
+Medu - Oswald
+*/
+/* ==========================*/
+
+/* ==== FORMATAÇÃO GERAL === */
+html{
+    font-size: clamp(1rem, 2vw + 0.8rem, 3rem);
+    font-family: "Epilogue", sans-serif;
+}
+
+h2,h3,h4,h5,h6{
+    font-family: "Oswald", sans-serif;
+}
+
+header {
+    padding: 4vw ;
+    text-align: center;
+    font-family: "Oswald", sans-serif;
+}
+
+header li {
+    padding: 1vw 0 1vw 0;
+}
+
+header span {
+    background-color: #FFD40D;
+    padding: 1vw;
+    border-radius: 10px;
+    color: white;
+}
+
+
+/* ===========================================================*/
+
+.banner {
+    padding: 4vw;
+    background-color: #dbabab;
+    text-align: center;
+    font-family: "Fredoka", sans-serif;
+}
+
+.banner div {
+    padding: 2vw 0 2vw;
+}
+
+.banner h2 {
+    font-size: 5vw;
+}
+
+.banner p {
+    padding: 2vw 0 2vw 0;
+    font-weight: 250;
+    font-size: 2.5vw;
+}
+
+.banner a {
+    background-color: #ED274B;
+    padding: 1vw;
+    border-radius: 50px;
+    color: white;
+}
+
+/* =========================================== */
+
+.about {
+    padding: 4vw;
+    text-align: center;
+    
+    
+}
+
+.about img.imgabout {
+    width: 80%;
+}
+
+.about h3 {
+    color: #ED274B;
+}
+
+.about h2 {
+    font-size:5vw;
+    padding: 1vw 0 2vw 0;
+}
+
+.about img {
+    padding: 2vw;
+}
+
+.about p {
+    font-weight: 250;
+}
+
+
+/*==============================================*/
+
+.popular {
+    background-color: #F5F8FD;
+    padding: 8vw 4vw 8vw 4vw;
+    text-align: center;
+}
+
+.popular h3 {
+   color: #00A149;
+   font-size: 2vw;
+}
+
+.popular div {
+    background-color: white;
+    margin: 5vw 15vw 5vw 15vw;
+}
+
+.popular p {
+    color: #FFD40D;
+    padding: 1vw;
+    font-size: 3vw;
+}
+
+
+
+.popular h4 span {
+    border-bottom: #FFD40D 2px solid ;
+    font-size: 5vw;
+    
+}
+
+/*================================================================*/
+
+.services {
+    text-align: center;
+    padding: 4vw;
+}
+
+.services h3 {
+    color: #ED274B;
+}
+
+.services h2 {
+    font-size: 6vw;
+}
+
+.services img {
+    padding: 2vw;
+}
+
+.services img.foodpng {
+    width: 50%;
+}
+
+.services p {
+    font-weight: 250;
+}
+
+.services li {
+    padding: 4vw;
+}
+.services h4 {
+    padding: 2vw 0 2vw 0;
+}
+
+/* ====================================== */
+
+footer {
+    background-color: #F5F8FD;
+    padding: 5vw;
+}
+
+footer div.details {
+    background-color: #ED274B;
+    padding: 4vw;
+    color: white;
+    font-weight: 500;
+}
+
+footer div.details {
+    line-height: 10vw;
+    border-radius: 30px;
+}
+
+footer div.details span{
+    border-bottom: 2px white solid;
+
+}
+
+footer h3 span{
+    border-bottom: #FFD40D 2px solid;
+
+}
+
+
+/* MEDIA QUERY - DESKTOP */
+@media  screen and (min-width: 600px) {
+
+}
