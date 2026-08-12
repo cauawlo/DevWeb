@@ -108,7 +108,7 @@ header span {
    font-size: 2vw;
 }
 
-.popular div {
+.popular  div div {
     background-color: white;
     margin: 5vw 15vw 5vw 15vw;
 }
@@ -193,5 +193,108 @@ footer h3 span{
 
 /* MEDIA QUERY - DESKTOP */
 @media  screen and (min-width: 600px) {
+    header {
+        display: flex;
+          
+    }
+
+    header nav ul {
+        display: flex;
+        gap: 20px;
+    }
+
+    header img {
+        padding: 0 2vw 0 0;
+    }
+
+    .banner {
+        display: flex;
+        text-align: left;
+    }
+
+    .about > div {
+        display: flex;
+        
+    }
+    .about > div div{
+        width: 50%;
+    }
+
+    .about li {
+        display: flex;
+       
+    }
+
+    .popular > div {
+        display: flex;
+    }
+
+    .popular h2 {
+        text-align: left;
+        padding: 1vw 3vw 1vw 3vw;
+    }
+
+    .popular h3 {
+        text-align: left;
+        padding: 1vw 3vw 1vw 3vw;
+    }
+
+    .popular div div {
+        margin: 5vw 2vw 5vw 2vw;
+        padding: 1vw 3vw 1vw 3vw;
+        
+    }
+
+
+    .services > div {
+        display: flex;
+        width: 100%;
+    }
+.services > div ul{
+    width:50%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.services > div ul li{
+     width:40%;
+}
+     .services {
+        font-size: 1vw;
+        
+    }
+
+    
+
+    .services div div img {
+        width: 100%;
+    }
+
+
+
+
+
+
+     .services h2 {
+        text-align: left;
+        padding: 1vw 3vw 1vw 3vw;
+    }
+
+    .services h3 {
+        text-align: left;
+        padding: 1vw 3vw 1vw 3vw;
+    }
+
+
+
+
+
+
+    
+
+
+
+    
+
+   
 
 }
