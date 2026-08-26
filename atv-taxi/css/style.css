@@ -1,0 +1,78 @@
+html {
+    font-size: clamp(1rem, calc(0.5rem + 2vw), 1.625rem);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+header {
+    padding: 1vw 4vw 1vw 4vw;
+    font-size: 1vw;
+    text-align: center;
+    
+}
+
+
+
+header li {
+    padding: 1vw 0 1vw 0;
+}
+
+header ul {
+    padding: 1vw 0 1vw 0;
+}
+
+header a.LOG  {
+    color: #FBBC05;
+}
+
+header span {
+    color: white;
+    background-color: #FBBC05;
+    padding: 1vw;
+    border-radius: 5px;
+}
+
+
+.banner {
+    padding: 4vw;
+    background-image: url(img/background-banner.png);
+}
+
+.banner a {
+    display: flex;
+
+
+}
+
+.banner h2 {
+  color: #252B42;
+  font-size: 6vw;
+}
+
+.banner p {
+    color: #737373;
+}
+
+.banner span {
+    background-color: #252B42;
+    padding: 1vw;
+    display: inline-block;
+    text-align: center;
+    
+}
+
+@media only screen and (min-width: 600px) { 
+    header nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        text-align: center;
+        
+    }
+
+   
+
+    header nav ul {
+        display: flex;
+    }
+}
