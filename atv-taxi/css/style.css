@@ -1,20 +1,21 @@
 html {
     font-size: clamp(1rem, calc(0.5rem + 2vw), 1.625rem);
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: white;
 }
 
 
 header {
     padding: 1vw 4vw 1vw 4vw;
     font-size: 1vw;
-    text-align: center;
-    
+    text-align: center;  
 }
 
 
 
 header li {
     padding: 1vw 0 1vw 0;
+    font-size: 6vw;
 }
 
 header ul {
@@ -47,32 +48,193 @@ header span {
 .banner h2 {
   color: #252B42;
   font-size: 6vw;
+  font-weight: 600;
 }
 
 .banner p {
     color: #737373;
 }
 
-.banner span {
+
+
+.banner a {
+    display: flex;
+    align-items: center;
     background-color: #252B42;
     padding: 1vw;
-    display: inline-block;
+    width: auto;
+    border-radius: 5px;
+}
+
+.banner img {
+    margin: 0 1.5vw 0 0;
+}
+
+.banner p.button {
+    display: flex;
+    gap: 15px;
+    color: white;
+}
+
+.banner p {
+    margin: 0vw 0 4vw 0;
+}
+
+.ready {
+    padding: 4vw;
+}
+
+.ready h2 {
+   color: #252B42;
+   font-size: 7vw;
+   margin: 2vw 0 2vw 0;
+   font-weight: 600;
+}
+
+.ready h3 {
+   color: #252B42;
+   font-weight: 600;
+   margin: 5vw 0 5vw 0;
+}
+
+.ready p {
+    color: #737373;
+    font-size: 4vw;
+    margin: 0 0 4vw 0;
     text-align: center;
-    
+    margin: 5vw 0 5vw 0;
+}
+
+.ready li p{
+    text-align: left;
+}
+
+
+.donwload {
+    padding: 4vw;
+}
+
+.donwload > div {
+    background-color: #FBBC05;
+    border-radius: 10px;
+}
+
+.donwload h2 {
+    color: white;
+    padding: 2vw;
+    font-weight: 600;
+}
+
+.donwload p {
+    color: white;
+    padding: 2vw 2vw 4vw 2vw;
+}
+
+.donwload a {
+    background-color: #252B42;
+    color: white;
+    padding: 2vw;
+    margin: 3vw 2vw 3vw 2vw;
+    border-radius: 5px;
 }
 
 @media only screen and (min-width: 600px) { 
     header nav {
         display: flex;
         justify-content: space-between;
-        align-items: center;
-        text-align: center;
         
+    }
+
+    header nav ul {
+        display: flex;
+        align-items: center;
+        gap: 45px;
+    }
+
+    header li {
+        font-size: 1.5vw;
+    }
+
+    .banner h2 {
+        font-size: 2vw;
+        padding: 0 0 2vw 0;
+    }
+
+    .banner p {
+        font-size: 1vw;
+    }
+
+    .banner div.texto {
+        margin: 7vw 0 0 0;
     }
 
    
 
-    header nav ul {
+    .banner {
         display: flex;
     }
+
+    .banner div{
+        flex:  0 0 50%;
+    }
+
+    .ready h2  {
+        text-align: center;
+    }
+
+    .ready > div {
+        display: flex;
+
+    } 
+
+    .ready ul {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .ready li {
+        margin: 0 2vw 0 2vw;
+        
+    }
+
+    
+
+
+    .ready div {
+        flex: 0 0 50%;
+        margin: 3vw 0 0 0;
+    }
+
+    .ready h2 {
+        font-size: 2vw;
+    }
+
+    .ready p {
+        font-size: 1vw;
+        margin: 1vw 0 1vw 0;
+    }
+
+    .ready h3 {
+        font-size: 1.5vw;
+        margin: 1vw 0 1vw 0;
+    }
+
+
+    .donwload img {
+        width: 30%;
+    }
+
+    .donwload > div {
+        display: flex;
+    }
+
+    .donwload img.left {
+        margin: 5vw;
+    }
+
+    
+
+    
+
+   
 }
