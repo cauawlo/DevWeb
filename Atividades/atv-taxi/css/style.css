@@ -37,6 +37,8 @@ header span {
 .banner {
     padding: 4vw;
     background-image: url(img/background-banner.png);
+    
+
 }
 
 .banner a {
@@ -53,6 +55,7 @@ header span {
 
 .banner p {
     color: #737373;
+    padding: 2vw 0 2vw 0;
 }
 
 
@@ -68,6 +71,11 @@ header span {
 
 .banner img {
     margin: 0 1.5vw 0 0;
+    display: none;
+}
+
+.banner img.icon {
+    display: block;
 }
 
 .banner p.button {
@@ -101,12 +109,15 @@ header span {
     color: #737373;
     font-size: 4vw;
     margin: 0 0 4vw 0;
-    text-align: center;
     margin: 5vw 0 5vw 0;
 }
 
-.ready li p{
+.ready  li p{
     text-align: left;
+}
+
+.ready img.UI {
+    display: none;
 }
 
 
@@ -117,6 +128,7 @@ header span {
 .donwload > div {
     background-color: #FBBC05;
     border-radius: 10px;
+    padding: 2vw;
 }
 
 .donwload h2 {
@@ -136,7 +148,65 @@ header span {
     padding: 2vw;
     margin: 3vw 2vw 3vw 2vw;
     border-radius: 5px;
+    display: inline-block;
 }
+
+.donwload img {
+    display: none;
+}
+
+.services {
+    padding: 4vw;
+}
+
+.services h2 {
+    font-weight: 550;
+}
+
+.services p {
+    margin: 1vw 0 1vw 0;
+}
+
+.services li {
+    background-color: #F6F6F6;
+    padding: 5vw;
+    margin: 3vw 0 3vw 0;
+}
+
+.services h3 {
+    font-weight: 550;
+    font-size: 8vw;
+    margin: 6vw 0 3vw 0;
+}
+
+.services li.brand {
+    background-color: #FAD007;
+}
+
+.contact {
+    padding: 4vw;
+}
+
+.contact h2 {
+    font-weight: 550;
+    margin: 1vw 0 2vw 0;
+}
+
+.contact div p {
+    border-bottom:solid 1px #FAD007;
+    padding: 2.5vw 0 2.5vw 3vw;
+}
+
+.contact img {
+    margin: 2vw 0 0 0;
+}
+
+.contact div p.message {
+    border-bottom:solid 1px #FAD007;
+    padding: 2.5vw 0 10vw 3vw;
+}
+
+
 
 @media only screen and (min-width: 600px) { 
     header nav {
@@ -158,6 +228,10 @@ header span {
     .banner h2 {
         font-size: 2vw;
         padding: 0 0 2vw 0;
+    }
+
+    .banner img {
+        display: block;
     }
 
     .banner p {
@@ -197,6 +271,10 @@ header span {
         
     }
 
+    .ready img.UI {
+        display: block;
+    }
+
     
 
 
@@ -214,6 +292,10 @@ header span {
         margin: 1vw 0 1vw 0;
     }
 
+    .ready > p {
+        text-align: center;
+    }
+
     .ready h3 {
         font-size: 1.5vw;
         margin: 1vw 0 1vw 0;
@@ -226,10 +308,57 @@ header span {
 
     .donwload > div {
         display: flex;
+        margin: 0 4vw 0 4vw;
     }
 
-    .donwload img.left {
-        margin: 5vw;
+    
+
+    .donwload img{
+        display: block;
+    }
+
+    .donwload > div {
+        padding: 2vw 0 1vw 1vw;
+    }
+
+    .donwload h2 {
+        font-size: 4.3vw;
+       
+    }
+
+    .services h2 {
+        font-size: 3.5vw;
+    }
+
+    .services h3 {
+        font-size: 2.5vw;
+    }
+
+    .services > div {
+        display: flex;
+    }
+
+   
+    .services ul {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .services .title {
+        margin: 0 15vw 0 0;
+    }
+
+    .services li {
+        margin: 1vw 1vw 1vw 1vw;
+        width: 40%;
+    }
+
+    .services li p {
+        font-size: 1vw;
+    }
+
+    .services li {
+        margin: 0 1vw 1vw 1vw;
     }
 
     
