@@ -123,26 +123,27 @@ header span {
 
 .donwload {
     padding: 4vw;
+    margin: 3vw 4vw;
+    border-radius: 10px;
+    color: white;
+    background-color: #FBBC05;
 }
 
 .donwload > div {
-    background-color: #FBBC05;
     border-radius: 10px;
     padding: 2vw;
 }
 
 .donwload h2 {
-    color: white;
     padding: 2vw;
     font-weight: 600;
 }
 
 .donwload p {
-    color: white;
     padding: 2vw 2vw 4vw 2vw;
 }
 
-.donwload a {
+.donwload button {
     background-color: #252B42;
     color: white;
     padding: 2vw;
@@ -150,6 +151,7 @@ header span {
     border-radius: 5px;
     display: inline-block;
 }
+
 
 .donwload img {
     display: none;
@@ -179,9 +181,6 @@ header span {
     margin: 6vw 0 3vw 0;
 }
 
-.services li.brand {
-    background-color: #FAD007;
-}
 
 .contact {
     padding: 4vw;
@@ -192,18 +191,28 @@ header span {
     margin: 1vw 0 2vw 0;
 }
 
-.contact div p {
+.contact div input {
     border-bottom:solid 1px #FAD007;
     padding: 2.5vw 0 2.5vw 3vw;
 }
 
-.contact img {
+.contact iframe {
     margin: 2vw 0 0 0;
 }
 
-.contact div p.message {
+.contact div input.message {
     border-bottom:solid 1px #FAD007;
     padding: 2.5vw 0 10vw 3vw;
+}
+
+.contact button {
+    margin: 2vw 0 2vw 0;
+    background-color: #FBBC05;
+    padding: 2vw;
+}
+
+.contact iframe {
+    filter: grayscale(100%);
 }
 
 
@@ -308,22 +317,32 @@ header span {
 
     .donwload > div {
         display: flex;
-        margin: 0 4vw 0 4vw;
+        
     }
+
+    .donwload button {
+        padding: 0.5vw;
+        margin-top: 0vw;
+    }
+
+    .donwload p {
+        padding-bottom: 3vw;
+    
+    }
+
+    .donwload{
+        background: url(../css/img/iphone-pet-ui.png) no-repeat , url(../css/img/iphone-pet-ui.png) no-repeat #FBBC05 ;
+        background-size: auto 100% , auto 100%;
+        background-position: 70% 10vw ,  100%  -10vw ;
+    }
+
 
     
 
-    .donwload img{
-        display: block;
-    }
-
-    .donwload > div {
-        padding: 2vw 0 1vw 1vw;
-    }
 
     .donwload h2 {
-        font-size: 4.3vw;
-       
+        font-size: 1.8rem;
+        padding-bottom: 0;
     }
 
     .services h2 {
@@ -351,6 +370,13 @@ header span {
     .services li {
         margin: 1vw 1vw 1vw 1vw;
         width: 40%;
+        
+    }
+
+    .services li:hover {
+        transition: 0.4s ease;
+        background-color: #FBBC05;
+
     }
 
     .services li p {
@@ -359,6 +385,21 @@ header span {
 
     .services li {
         margin: 0 1vw 1vw 1vw;
+    }
+
+    .contact h2 {
+        font-size: 2rem;
+        text-align: center;
+    }
+
+    .contact p {
+        font-size: 1.5rem;
+        text-align: center;
+        margin-bottom: 2vw;
+    }
+
+    .contact > div {
+        display: flex;
     }
 
     
